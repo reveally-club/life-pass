@@ -1,0 +1,20 @@
+{
+  "name": "life-pass",
+  "author": "dilrong",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:testnet": "npx hardhat run --network testnet scripts/deploy.ts",
+    "deploy:mainnet": "npx hardhat run --network mainnet scripts/deploy.ts",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
+    "@openzeppelin/contracts": "^4.8.1",
+    "hardhat": "^2.12.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
